@@ -12,6 +12,11 @@
 *.cb2
 .*.lb
 
+## anything other than the bib file in /ref
+ref/*
+!ref/*.bib
+!ref/*.md
+
 ## Intermediate documents:
 *.dvi
 *.xdv
