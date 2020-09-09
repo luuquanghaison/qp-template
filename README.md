@@ -2,15 +2,13 @@
 Project directory and LaTeX template for UBC STAT 548 Qualifying Paper reports
 
 ## Instructions for use:
-1. Download this repository (cloning is unnecessary).
-1. Move to an appropriate place on your machine, unzip, and rename from `qp-template` to `qp-yourgivenname-yoursurname` (please replace with your names, and please leave in all lowercase).
+1. Click "Use Template" at the top. This basically forks it into your own GitHub account. Don't have a GitHub, set one up now <https://github.com>. Note: this is hosted on servers outside Canada.
 1. If necessary, [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-1. [Initialize](https://git-scm.com/docs/git-init) as a git repository and make an [initial commit](https://git-scm.com/docs/git-commit).
-1. [Add the project to GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).
+1. Clone your new repo to your machine somewhere.
 1. At some point before you submit the report, [add me as a collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository).<sup id="a1">[1](#f1)</sup>
-1. Use the directory structure to keep your project organized and use the LaTeX template in the `doc/report` directory for your report. See below for more details on using the LaTeX template. See [my website](https://www.stat.ubc.ca/~benbr/assets/courses/stat548-19-20.pdf) for details on my expectations for the report.
+1. Use the directory structure to keep your project organized and use the LaTeX template in the `doc/report` directory for your report. See below for more details on using the LaTeX template. See [my website](https://dajmcdon.github.io/teaching/stat548/) for details on my expectations for the report.
 1. Commit and push your changes regularly. It serves as a back-up and lets me see how you progressed.
-1. When you are ready to submit your report, commit with the message "submission for BBR review".
+1. When you are ready to submit your report, commit with the message "submission for DJM review".
 1. Send me an email confirming that you have submitted your report for review and marking.
 
 
@@ -31,7 +29,7 @@ The long(er) version:
 * `cleanup.sh` cleans up auxiliary files, etc., in case your directory looks cluttered. Use is not required.
 
 
-_Acknowledgements_: [Dave Blei](http://www.cs.columbia.edu/~blei/) for (most of) the basic directory structure and reading/project logs.
+_Acknowledgements_: [Dave Blei](http://www.cs.columbia.edu/~blei/) for (most of) the basic directory structure and reading/project logs. As should be clear from the fork, I stole this from [Ben](https://www.stat.ubc.ca/~benbr/)
 
 
 <b id="f1">[1]</b> *When* you give me access is entirely up to you. I will not look at your repository before your submit your report unless you ask me to (and even then I may not). [↩](#a1)
