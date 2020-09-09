@@ -113,17 +113,15 @@
 % operators
 \def\P{\bbP} %fundamental probability
 \def\E{\bbE} %expectation
+\newcommand[1]{\Expect}{\E\left[ #1 \right]}
 % conditional expectation
 \DeclarePairedDelimiterX\bigCond[2]{[}{]}{#1 \;\delimsize\vert\; #2}
 \newcommand{\conditional}[3][]{\bbE_{#1}\bigCond*{#2}{#3}}
 \def\Law{\mathcal{L}} %law; this is by convention in the literature
 \def\indicator{\mathds{1}} % indicator function
 
-% sets and groups
-\def\borel{\calB} %Borel sets
-\def\sigAlg{\calA} %sigma-algebra
-\def\filtration{\calF} %filtration
-\def\grp{\calG} %group
+% norms
+\newcommand[1]{\norm}{\left\lVert #1 \right\rVert}
 
 % binary relations
 \def\condind{{\perp\!\!\!\perp}} %independence/conditional independence
@@ -150,34 +148,19 @@
 \def\BetaDist{\text{\rm Beta}}
 \def\ExpDist{\text{\rm Exp}}
 \def\GammaDist{\text{\rm Gamma}}
-% \def\GenGammaDist{\text{\rm GGa}} %Generalized Gamma
+\def\NormalDist{\text{\rm Normal}}
+
 
 % discrete
 \def\BernDist{\text{\rm Bernoulli}}
 \def\BinomDist{\text{\rm Binomial}}
-\def\PoissonPlus{\text{\rm Poisson}_{+}}
 \def\PoissonDist{\text{\rm Poisson}}
-\def\NBPlus{\text{\rm NB}_{+}}
-\def\NBDist{\text{\rm NB}}
-\def\GeomDist{\text{\rm Geom}}
-% \def\CRP{\text{\rm CRP}}
-% \def\EGP{\text{\rm EGP}}
-% \def\MittagLeffler{\text{\rm ML}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Project-specific notation should go here
 % (Because it's at the end of the file, it can overwrite anything that came before.)
 
-%e.g.,
-\def\Laplacian{\calL}
-\def\P{\calP}
-
-% combinatorial objects
-\def\perm{\sigma} %fixed permutation
-\def\Perm{\Sigma} %random permutation
-\def\part{\pi} %fixed partition
-\def\Part{\Pi} %random partition
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
