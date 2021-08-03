@@ -113,15 +113,16 @@
 % operators
 \def\P{\bbP} %fundamental probability
 \def\E{\bbE} %expectation
-\newcommand[1]{\Expect}{\E\left[ #1 \right]}
+
+\newcommand{\Expect}[1]{\E \left{ #1\right}}
 % conditional expectation
 \DeclarePairedDelimiterX\bigCond[2]{[}{]}{#1 \;\delimsize\vert\; #2}
-\newcommand{\conditional}[3][]{\bbE_{#1}\bigCond*{#2}{#3}}
+\newcommand{\conditional}[3][]{\E_{#1}\bigCond*{#2}{#3}}
 \def\Law{\mathcal{L}} %law; this is by convention in the literature
 \def\indicator{\mathds{1}} % indicator function
 
 % norms
-\newcommand[1]{\norm}{\left\lVert #1 \right\rVert}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
 
 % binary relations
 \def\condind{{\perp\!\!\!\perp}} %independence/conditional independence
