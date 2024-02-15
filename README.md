@@ -31,3 +31,6 @@ _Acknowledgements_: [Dave Blei](http://www.cs.columbia.edu/~blei/) for (most of)
 
 
 <b id="f1">[1]</b> *When* you give me access is entirely up to you. I will not look at your repository before your submit your report unless you ask me to (and even then I may not). [↩](#a1)
+
+
+asdadgd
